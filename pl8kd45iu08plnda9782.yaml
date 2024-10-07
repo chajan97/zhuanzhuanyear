@@ -85,8 +85,6 @@ proxies:
   - {"name":"BWG|xW16.love@xray.com","type":"vless","server":"144.34.175.197","port":15211,"udp":true,"uuid":"6291b284-79c2-48e5-e4df-b8ebc3d83c41","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM"},"client-fingerprint":"chrome"}
   - {"name":"sybvultr|VIen.love@xray.com","type":"vless","server":"45.76.75.72","port":29950,"udp":true,"uuid":"c321c849-6881-4f95-e0dd-f334db5faf6a","tls":true,"servername":"www.speedtest.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA"},"client-fingerprint":"chrome"}
   - {"name":"shentoko|QMRX.love@xray.com","type":"vless","server":"198.13.53.63","port":27586,"udp":true,"uuid":"56a3096c-e9a2-4e80-b893-a63c54cd3a29","tls":true,"servername":"www.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4"},"client-fingerprint":"chrome"}
-  - {"name":"zgj-henis02","type":"vmess","server":"seoul02.zgjok.com","port":443,"cipher":"auto","uuid":"1a1e5196-eab4-4772-9012-65c27f19a524","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"seoul02.zgjok.com"}}}
-  - {"name":"zgj-henis03","type":"vmess","server":"seoul03.zgjok.com","port":443,"cipher":"auto","uuid":"72a0dac4-9689-4a57-b164-5c65bfa94772","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"seoul03.zgjok.com"}}}
   - {"name":"US01","type":"trojan","server":"us.playstone.info","port":31443,"udp":true,"password":"OAj6Zba9QLK9HQrV","skip-cert-verify":true,"network":"tcp"}
   - {"name":"US02","type":"trojan","server":"liang.playstone.info","port":29443,"udp":true,"password":"AtnzQFeFeEqgDqs3","skip-cert-verify":true,"network":"tcp"}
   - {"name":"US03","type":"trojan","server":"los2.playstone.info","port":29443,"udp":true,"password":"AtnzQFeFeEqgDqs3","skip-cert-verify":true,"network":"tcp"}
@@ -125,8 +123,6 @@ proxy-groups:
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
       - shentoko|QMRX.love@xray.com
-      - zgj-henis02
-      - zgj-henis03
       - US01
       - US02
       - US03
@@ -165,8 +161,6 @@ proxy-groups:
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
       - shentoko|QMRX.love@xray.com
-      - zgj-henis02
-      - zgj-henis03
       - US01
       - US02
       - US03
@@ -205,8 +199,6 @@ proxy-groups:
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
       - shentoko|QMRX.love@xray.com
-      - zgj-henis02
-      - zgj-henis03
       - US01
       - US02
       - US03
@@ -244,8 +236,6 @@ proxy-groups:
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
       - shentoko|QMRX.love@xray.com
-      - zgj-henis02
-      - zgj-henis03
       - US01
       - US02
       - US03
@@ -283,8 +273,6 @@ proxy-groups:
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
       - shentoko|QMRX.love@xray.com
-      - zgj-henis02
-      - zgj-henis03
       - US01
       - US02
       - US03
@@ -322,8 +310,6 @@ proxy-groups:
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
       - shentoko|QMRX.love@xray.com
-      - zgj-henis02
-      - zgj-henis03
       - US01
       - US02
       - US03
@@ -378,8 +364,6 @@ proxy-groups:
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
       - shentoko|QMRX.love@xray.com
-      - zgj-henis02
-      - zgj-henis03
       - US01
       - US02
       - US03
