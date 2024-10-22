@@ -78,312 +78,67 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"siwuxie|Ni2W.love@xray.com","type":"vless","server":"64.176.211.140","port":41007,"udp":true,"uuid":"a97c5536-dec2-47f7-9062-9ae3587ef5d0","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"S-g0oP36DShii1uPOnZDSEhp_wQghX6h68PgMivOmD4"},"client-fingerprint":"chrome"}
-  - {"name":"syb|hEN5.love@xray.co","type":"vless","server":"144.34.172.30","port":25240,"udp":true,"uuid":"605f6f73-458b-4aeb-ecb6-d56fb0cc7a74","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4"},"client-fingerprint":"chrome"}
-  - {"name":"BWG|xW16.love@xray.com","type":"vless","server":"144.34.175.197","port":15211,"udp":true,"uuid":"6291b284-79c2-48e5-e4df-b8ebc3d83c41","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM"},"client-fingerprint":"chrome"}
-  - {"name":"sybvultr|VIen.love@xray.com","type":"vless","server":"45.76.75.72","port":29950,"udp":true,"uuid":"c321c849-6881-4f95-e0dd-f334db5faf6a","tls":true,"servername":"www.speedtest.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA"},"client-fingerprint":"chrome"}
-  - {"name":"shentoko|QMRX.love@xray.com","type":"vless","server":"198.13.53.63","port":27586,"udp":true,"uuid":"56a3096c-e9a2-4e80-b893-a63c54cd3a29","tls":true,"servername":"www.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4"},"client-fingerprint":"chrome"}
-  - {"name":"ln|wCGo.love@xray.com","type":"vless","server":"45.76.74.41","port":52230,"udp":true,"uuid":"3d10ea2f-4b32-4d49-b724-075e92762dab","tls":true,"servername":"www.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM"},"client-fingerprint":"chrome"}
-  - {"name":"lnl|9Vbr.love@xray.com","type":"vless","server":"96.45.188.130","port":37308,"udp":true,"uuid":"5ab3c025-124d-4746-e086-18a77f7aba31","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc"},"client-fingerprint":"chrome"}
-  - {"name":"VLESS_BWG_JPN01","type":"vless","server":"vps-bwg-jpn.duyimin.com","port":48864,"udp":true,"uuid":"bb546ee4-6bde-4c19-db65-021522f56c13","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE","short-id":"fcaf45ab"},"client-fingerprint":"chrome"}
-  - {"name":"VLESS_BWG_USA01","type":"vless","server":"vps-bwg-usa.duyimin.com","port":48864,"udp":true,"uuid":"bb546ee4-6bde-4c19-db65-021522f56c13","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE","short-id":"fcaf45ab"},"client-fingerprint":"chrome"}
-  - {"name":"VLESS_BWG_JPN02","type":"vless","server":"vps-bwg-jpn.duyimin.com","port":48864,"udp":true,"uuid":"bb546ee4-6bde-4c19-db65-021522f56c13","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE","short-id":"fcaf45ab"},"client-fingerprint":"chrome"}
-  - {"name":"VLESS_BWG_USA02","type":"vless","server":"vps-bwg-usa.duyimin.com","port":48864,"udp":true,"uuid":"bb546ee4-6bde-4c19-db65-021522f56c13","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE","short-id":"fcaf45ab"},"client-fingerprint":"chrome"}
-  - {"name":"🇯🇵 Oracle云1-Ver.6","type":"vmess","server":"uc22y-g01.jp01-0986-vm0.entry.fr0307a.art","port":21581,"cipher":"auto","uuid":"6ad7034c-bcba-3f4b-9386-99bccd49bbdc","alterId":1,"tls":true,"skip-cert-verify":true,"network":""}
-  - {"name":"🇯🇵 Oracle云2-Ver.7","type":"vmess","server":"ov8sg-g01.jp02-9a99-vm0.entry.fr0307a.art","port":11773,"cipher":"auto","uuid":"6ad7034c-bcba-3f4b-9386-99bccd49bbdc","alterId":1,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"🇯🇵 Oracle云3-Ver.6","type":"vmess","server":"4n2b8-g01.jp03-7d22-vm0.entry.fr0307a.art","port":21581,"cipher":"auto","uuid":"6ad7034c-bcba-3f4b-9386-99bccd49bbdc","alterId":1,"tls":true,"skip-cert-verify":true,"network":""}
-  - {"name":"🇯🇵 Oracle云4-Ver.7","type":"vmess","server":"yvej6-g01.jp04-3771-vm0.entry.fr0307a.art","port":444,"cipher":"auto","uuid":"6ad7034c-bcba-3f4b-9386-99bccd49bbdc","alterId":1,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"🇯🇵 Oracle云5-Ver.8","type":"vmess","server":"b7b51-g01.jp05-6786-vm0.entry.fr0307a.art","port":46482,"cipher":"auto","uuid":"6ad7034c-bcba-3f4b-9386-99bccd49bbdc","alterId":1,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"🇯🇵 Oracle云6-Ver.7","type":"vmess","server":"06sio-g01.jp06-7c5a-vm0.entry.fr0307a.art","port":28783,"cipher":"auto","uuid":"6ad7034c-bcba-3f4b-9386-99bccd49bbdc","alterId":1,"tls":true,"skip-cert-verify":true,"network":""}
-  - {"name":"🇯🇵 Oracle云7-Ver.1","type":"vmess","server":"bcudw-g01.jp07-1f28-vm0.entry.fr0307a.art","port":28783,"cipher":"auto","uuid":"6ad7034c-bcba-3f4b-9386-99bccd49bbdc","alterId":1,"tls":false,"skip-cert-verify":true,"network":""}
-  - {"name":"YeCaoYun01","type":"vless","server":"45.152.66.132","port":42669,"uuid":"92d1f505-0135-4713-ba2b-e10deee35136","tls":false,"network":"ws","ws-opts":{"path":"/proxy"}}
-  - {"name":"YeCaoYun02","type":"vless","server":"45.152.66.132","port":42669,"uuid":"92d1f505-0135-4713-ba2b-e10deee35136","tls":false,"network":"ws","ws-opts":{"path":"/proxy"}}
-  - {"name":"US01","type":"trojan","server":"us.playstone.info","port":31443,"udp":true,"password":"OAj6Zba9QLK9HQrV","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US02","type":"trojan","server":"liang.playstone.info","port":29443,"udp":true,"password":"AtnzQFeFeEqgDqs3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"US03","type":"trojan","server":"los2.playstone.info","port":29443,"udp":true,"password":"AtnzQFeFeEqgDqs3","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"JMS-355001","type":"ss","server":"c50s1.portablesubmarines.com","port":31795,"password":"8H4Mcj9aBU22uMQE","cipher":"aes-256-gcm"}
-  - {"name":"JMS-355002","type":"ss","server":"c50s1.portablesubmarines.com","port":31795,"password":"8H4Mcj9aBU22uMQE","cipher":"aes-256-gcm"}
-  - {"name":"CC-10.99U-hy2","type":"hysteria2","server":"74.48.173.119","port":49557,"password":"131aa5f3","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"CC-10.99U-reality","type":"vless","server":"74.48.173.119","port":35009,"udp":true,"uuid":"07267d0f-6bb2-47cb-a1a4-fa53133489e0","tls":true,"servername":"07267d0f.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY"},"client-fingerprint":"chrome"}
-  - {"name":"CC-10.99U-trojan","type":"trojan","server":"xui.wongking.top","port":43524,"udp":true,"password":"tSfVY3gS24","sni":"xui.wongking.top","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"CC-9.5U-hy2","type":"hysteria2","server":"148.135.102.170","port":29857,"password":"b9b58ea6","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"CC-9.5U-reality","type":"vless","server":"148.135.102.170","port":38127,"udp":true,"uuid":"e4a40d2d-e6ac-4167-98fa-11f583069b6c","tls":true,"servername":"www.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"UK7qxWWGfRQcQfwaGpHnqmmqqJBut4jxve8AeDDJ2UI"},"client-fingerprint":"chrome"}
-  - {"name":"CC-9.5U-trojan","type":"trojan","server":"xui.wongking.pp.ua","port":35712,"udp":true,"password":"R4XYRNXoX6","sni":"xui.wongking.pp.ua","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"RN-11.88U-hy2","type":"hysteria2","server":"74.48.219.246","port":47444,"password":"d6fe6c5b","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"RN-11.88U-reality","type":"vless","server":"74.48.219.246","port":40595,"udp":true,"uuid":"9a57a9b2-2069-46c5-cc73-ceb62b0bf88b","tls":true,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY"},"client-fingerprint":"chrome"}
-  - {"name":"RN-11.88U-trojan","type":"trojan","server":"xui.king1134.pp.ua","port":25102,"udp":true,"password":"6vbmqCiZrS","sni":"xui.king1134.pp.ua","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"DY-HK-80CNY-hy2","type":"hysteria2","server":"206.237.1.72","port":48503,"password":"a76f8254","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"DY-HK-80CNY-reality","type":"vless","server":"206.237.1.72","port":17225,"udp":true,"uuid":"39fe4e63-043f-4b35-84d8-2bf76d91ad21","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4"},"client-fingerprint":"chrome"}
-  - {"name":"DY-HK-80CNY-trojan","type":"trojan","server":"xui.carmen.pp.ua","port":44547,"udp":true,"password":"60Dnd3ZmyB","sni":"xui.carmen.pp.ua","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"vultr_jp_1","type":"vless","server":"64.176.47.62","port":41347,"uuid":"b7ba4b1f-dbde-4010-84f4-a3893a5bbb4f","tls":false,"network":"tcp"}
-  - {"name":"vultr_jp_2","type":"vless","server":"64.176.36.10","port":41480,"uuid":"2559c7ea-7304-462d-9991-58424bdabacd","tls":false,"network":"tcp"}
+  - {"name":"搬瓦工_洛杉矶Reality","type":"vless","server":"104.194.82.143","port":443,"udp":true,"uuid":"738edff9-b132-4ea4-b35b-5d88ebaffb0d","tls":true,"servername":"d1.awsstatic.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"jEq5xhSDAR6RkltCryeQZUEpHSvbVHbqoaw1ZVmzqTE","short-id":"99"},"client-fingerprint":"chrome"}
+  - {"name":"Raksmart_洛杉矶直连","type":"vless","server":"107.148.43.253","port":18846,"uuid":"c3888126-72ef-40d2-eeee-b2302eb20756","tls":false,"network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"YeCaoYun_香港直连","type":"vless","server":"45.152.66.132","port":42669,"uuid":"92d1f505-0135-4713-ba2b-e10deee35136","tls":false,"network":"ws","ws-opts":{"path":"/proxy"}}
+  - {"name":"AliYun-vmess_ws-Z","type":"vmess","server":"ali.176371.xyz","port":54467,"cipher":"auto","uuid":"c7ff6cc6-6b1f-4ec6-a563-1323f65ac7bb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/avicii"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - siwuxie|Ni2W.love@xray.com
-      - syb|hEN5.love@xray.co
-      - BWG|xW16.love@xray.com
-      - sybvultr|VIen.love@xray.com
-      - shentoko|QMRX.love@xray.com
-      - ln|wCGo.love@xray.com
-      - lnl|9Vbr.love@xray.com
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_USA01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA02
-      - 🇯🇵 Oracle云1-Ver.6
-      - 🇯🇵 Oracle云2-Ver.7
-      - 🇯🇵 Oracle云3-Ver.6
-      - 🇯🇵 Oracle云4-Ver.7
-      - 🇯🇵 Oracle云5-Ver.8
-      - 🇯🇵 Oracle云6-Ver.7
-      - 🇯🇵 Oracle云7-Ver.1
-      - YeCaoYun01
-      - YeCaoYun02
-      - US01
-      - US02
-      - US03
-      - JMS-355001
-      - JMS-355002
-      - CC-10.99U-hy2
-      - CC-10.99U-reality
-      - CC-10.99U-trojan
-      - CC-9.5U-hy2
-      - CC-9.5U-reality
-      - CC-9.5U-trojan
-      - RN-11.88U-hy2
-      - RN-11.88U-reality
-      - RN-11.88U-trojan
-      - DY-HK-80CNY-hy2
-      - DY-HK-80CNY-reality
-      - DY-HK-80CNY-trojan
-      - vultr_jp_1
-      - vultr_jp_2
+      - 搬瓦工_洛杉矶Reality
+      - Raksmart_洛杉矶直连
+      - YeCaoYun_香港直连
+      - AliYun-vmess_ws-Z
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - siwuxie|Ni2W.love@xray.com
-      - syb|hEN5.love@xray.co
-      - BWG|xW16.love@xray.com
-      - sybvultr|VIen.love@xray.com
-      - shentoko|QMRX.love@xray.com
-      - ln|wCGo.love@xray.com
-      - lnl|9Vbr.love@xray.com
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_USA01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA02
-      - 🇯🇵 Oracle云1-Ver.6
-      - 🇯🇵 Oracle云2-Ver.7
-      - 🇯🇵 Oracle云3-Ver.6
-      - 🇯🇵 Oracle云4-Ver.7
-      - 🇯🇵 Oracle云5-Ver.8
-      - 🇯🇵 Oracle云6-Ver.7
-      - 🇯🇵 Oracle云7-Ver.1
-      - YeCaoYun01
-      - YeCaoYun02
-      - US01
-      - US02
-      - US03
-      - JMS-355001
-      - JMS-355002
-      - CC-10.99U-hy2
-      - CC-10.99U-reality
-      - CC-10.99U-trojan
-      - CC-9.5U-hy2
-      - CC-9.5U-reality
-      - CC-9.5U-trojan
-      - RN-11.88U-hy2
-      - RN-11.88U-reality
-      - RN-11.88U-trojan
-      - DY-HK-80CNY-hy2
-      - DY-HK-80CNY-reality
-      - DY-HK-80CNY-trojan
-      - vultr_jp_1
-      - vultr_jp_2
+      - 搬瓦工_洛杉矶Reality
+      - Raksmart_洛杉矶直连
+      - YeCaoYun_香港直连
+      - AliYun-vmess_ws-Z
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - siwuxie|Ni2W.love@xray.com
-      - syb|hEN5.love@xray.co
-      - BWG|xW16.love@xray.com
-      - sybvultr|VIen.love@xray.com
-      - shentoko|QMRX.love@xray.com
-      - ln|wCGo.love@xray.com
-      - lnl|9Vbr.love@xray.com
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_USA01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA02
-      - 🇯🇵 Oracle云1-Ver.6
-      - 🇯🇵 Oracle云2-Ver.7
-      - 🇯🇵 Oracle云3-Ver.6
-      - 🇯🇵 Oracle云4-Ver.7
-      - 🇯🇵 Oracle云5-Ver.8
-      - 🇯🇵 Oracle云6-Ver.7
-      - 🇯🇵 Oracle云7-Ver.1
-      - YeCaoYun01
-      - YeCaoYun02
-      - US01
-      - US02
-      - US03
-      - JMS-355001
-      - JMS-355002
-      - CC-10.99U-hy2
-      - CC-10.99U-reality
-      - CC-10.99U-trojan
-      - CC-9.5U-hy2
-      - CC-9.5U-reality
-      - CC-9.5U-trojan
-      - RN-11.88U-hy2
-      - RN-11.88U-reality
-      - RN-11.88U-trojan
-      - DY-HK-80CNY-hy2
-      - DY-HK-80CNY-reality
-      - DY-HK-80CNY-trojan
-      - vultr_jp_1
-      - vultr_jp_2
+      - 搬瓦工_洛杉矶Reality
+      - Raksmart_洛杉矶直连
+      - YeCaoYun_香港直连
+      - AliYun-vmess_ws-Z
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - siwuxie|Ni2W.love@xray.com
-      - syb|hEN5.love@xray.co
-      - BWG|xW16.love@xray.com
-      - sybvultr|VIen.love@xray.com
-      - shentoko|QMRX.love@xray.com
-      - ln|wCGo.love@xray.com
-      - lnl|9Vbr.love@xray.com
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_USA01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA02
-      - 🇯🇵 Oracle云1-Ver.6
-      - 🇯🇵 Oracle云2-Ver.7
-      - 🇯🇵 Oracle云3-Ver.6
-      - 🇯🇵 Oracle云4-Ver.7
-      - 🇯🇵 Oracle云5-Ver.8
-      - 🇯🇵 Oracle云6-Ver.7
-      - 🇯🇵 Oracle云7-Ver.1
-      - YeCaoYun01
-      - YeCaoYun02
-      - US01
-      - US02
-      - US03
-      - JMS-355001
-      - JMS-355002
-      - CC-10.99U-hy2
-      - CC-10.99U-reality
-      - CC-10.99U-trojan
-      - CC-9.5U-hy2
-      - CC-9.5U-reality
-      - CC-9.5U-trojan
-      - RN-11.88U-hy2
-      - RN-11.88U-reality
-      - RN-11.88U-trojan
-      - DY-HK-80CNY-hy2
-      - DY-HK-80CNY-reality
-      - DY-HK-80CNY-trojan
-      - vultr_jp_1
-      - vultr_jp_2
+      - 搬瓦工_洛杉矶Reality
+      - Raksmart_洛杉矶直连
+      - YeCaoYun_香港直连
+      - AliYun-vmess_ws-Z
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - siwuxie|Ni2W.love@xray.com
-      - syb|hEN5.love@xray.co
-      - BWG|xW16.love@xray.com
-      - sybvultr|VIen.love@xray.com
-      - shentoko|QMRX.love@xray.com
-      - ln|wCGo.love@xray.com
-      - lnl|9Vbr.love@xray.com
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_USA01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA02
-      - 🇯🇵 Oracle云1-Ver.6
-      - 🇯🇵 Oracle云2-Ver.7
-      - 🇯🇵 Oracle云3-Ver.6
-      - 🇯🇵 Oracle云4-Ver.7
-      - 🇯🇵 Oracle云5-Ver.8
-      - 🇯🇵 Oracle云6-Ver.7
-      - 🇯🇵 Oracle云7-Ver.1
-      - YeCaoYun01
-      - YeCaoYun02
-      - US01
-      - US02
-      - US03
-      - JMS-355001
-      - JMS-355002
-      - CC-10.99U-hy2
-      - CC-10.99U-reality
-      - CC-10.99U-trojan
-      - CC-9.5U-hy2
-      - CC-9.5U-reality
-      - CC-9.5U-trojan
-      - RN-11.88U-hy2
-      - RN-11.88U-reality
-      - RN-11.88U-trojan
-      - DY-HK-80CNY-hy2
-      - DY-HK-80CNY-reality
-      - DY-HK-80CNY-trojan
-      - vultr_jp_1
-      - vultr_jp_2
+      - 搬瓦工_洛杉矶Reality
+      - Raksmart_洛杉矶直连
+      - YeCaoYun_香港直连
+      - AliYun-vmess_ws-Z
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - siwuxie|Ni2W.love@xray.com
-      - syb|hEN5.love@xray.co
-      - BWG|xW16.love@xray.com
-      - sybvultr|VIen.love@xray.com
-      - shentoko|QMRX.love@xray.com
-      - ln|wCGo.love@xray.com
-      - lnl|9Vbr.love@xray.com
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_USA01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA02
-      - 🇯🇵 Oracle云1-Ver.6
-      - 🇯🇵 Oracle云2-Ver.7
-      - 🇯🇵 Oracle云3-Ver.6
-      - 🇯🇵 Oracle云4-Ver.7
-      - 🇯🇵 Oracle云5-Ver.8
-      - 🇯🇵 Oracle云6-Ver.7
-      - 🇯🇵 Oracle云7-Ver.1
-      - YeCaoYun01
-      - YeCaoYun02
-      - US01
-      - US02
-      - US03
-      - JMS-355001
-      - JMS-355002
-      - CC-10.99U-hy2
-      - CC-10.99U-reality
-      - CC-10.99U-trojan
-      - CC-9.5U-hy2
-      - CC-9.5U-reality
-      - CC-9.5U-trojan
-      - RN-11.88U-hy2
-      - RN-11.88U-reality
-      - RN-11.88U-trojan
-      - DY-HK-80CNY-hy2
-      - DY-HK-80CNY-reality
-      - DY-HK-80CNY-trojan
-      - vultr_jp_1
-      - vultr_jp_2
+      - 搬瓦工_洛杉矶Reality
+      - Raksmart_洛杉矶直连
+      - YeCaoYun_香港直连
+      - AliYun-vmess_ws-Z
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -406,45 +161,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - siwuxie|Ni2W.love@xray.com
-      - syb|hEN5.love@xray.co
-      - BWG|xW16.love@xray.com
-      - sybvultr|VIen.love@xray.com
-      - shentoko|QMRX.love@xray.com
-      - ln|wCGo.love@xray.com
-      - lnl|9Vbr.love@xray.com
-      - VLESS_BWG_JPN01
-      - VLESS_BWG_USA01
-      - VLESS_BWG_JPN02
-      - VLESS_BWG_USA02
-      - 🇯🇵 Oracle云1-Ver.6
-      - 🇯🇵 Oracle云2-Ver.7
-      - 🇯🇵 Oracle云3-Ver.6
-      - 🇯🇵 Oracle云4-Ver.7
-      - 🇯🇵 Oracle云5-Ver.8
-      - 🇯🇵 Oracle云6-Ver.7
-      - 🇯🇵 Oracle云7-Ver.1
-      - YeCaoYun01
-      - YeCaoYun02
-      - US01
-      - US02
-      - US03
-      - JMS-355001
-      - JMS-355002
-      - CC-10.99U-hy2
-      - CC-10.99U-reality
-      - CC-10.99U-trojan
-      - CC-9.5U-hy2
-      - CC-9.5U-reality
-      - CC-9.5U-trojan
-      - RN-11.88U-hy2
-      - RN-11.88U-reality
-      - RN-11.88U-trojan
-      - DY-HK-80CNY-hy2
-      - DY-HK-80CNY-reality
-      - DY-HK-80CNY-trojan
-      - vultr_jp_1
-      - vultr_jp_2
+      - 搬瓦工_洛杉矶Reality
+      - Raksmart_洛杉矶直连
+      - YeCaoYun_香港直连
+      - AliYun-vmess_ws-Z
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
