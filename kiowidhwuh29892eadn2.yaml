@@ -78,44 +78,50 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"lnl|9Vbr.love@xray.com","type":"vless","server":"96.45.188.130","port":37308,"udp":true,"uuid":"5ab3c025-124d-4746-e086-18a77f7aba31","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc"},"client-fingerprint":"chrome"}
-  - {"name":"ln|wCGo.love@xray.com","type":"vless","server":"45.76.74.41","port":52230,"udp":true,"uuid":"3d10ea2f-4b32-4d49-b724-075e92762dab","tls":true,"servername":"www.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM"},"client-fingerprint":"chrome"}
-  - {"name":"syb|hEN5.love@xray.com","type":"vless","server":"144.34.172.30","port":25240,"udp":true,"uuid":"605f6f73-458b-4aeb-ecb6-d56fb0cc7a74","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4"},"client-fingerprint":"chrome"}
   - {"name":"siwuxie|Ni2W.love@xray.com","type":"vless","server":"64.176.211.140","port":41007,"udp":true,"uuid":"a97c5536-dec2-47f7-9062-9ae3587ef5d0","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"S-g0oP36DShii1uPOnZDSEhp_wQghX6h68PgMivOmD4"},"client-fingerprint":"chrome"}
+  - {"name":"syb|hEN5.love@xray.co","type":"vless","server":"144.34.172.30","port":25240,"udp":true,"uuid":"605f6f73-458b-4aeb-ecb6-d56fb0cc7a74","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4"},"client-fingerprint":"chrome"}
   - {"name":"BWG|xW16.love@xray.com","type":"vless","server":"144.34.175.197","port":15211,"udp":true,"uuid":"6291b284-79c2-48e5-e4df-b8ebc3d83c41","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"4comh-7Jm_wZXJQ5QiLSCbVGQIbMUzHUIBdb0aFtLzM"},"client-fingerprint":"chrome"}
   - {"name":"sybvultr|VIen.love@xray.com","type":"vless","server":"45.76.75.72","port":29950,"udp":true,"uuid":"c321c849-6881-4f95-e0dd-f334db5faf6a","tls":true,"servername":"www.speedtest.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA"},"client-fingerprint":"chrome"}
-  - {"name":"shentokoQ1|QMRX.love@xray.com","type":"hysteria2","server":"129.153.75.202","port":50000,"password":"bcf5302c-4b8b-49d4-972a-92f475e1e2bf","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"shentokoQ2|QMRX.love@xray.com","type":"hysteria2","server":"129.153.80.156","port":50000,"password":"bcf5302c-4b8b-49d4-972a-92f475e1e2bf","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"shentokoQ3|QMRX.love@xray.com","type":"hysteria2","server":"158.101.37.59","port":50000,"password":"bcf5302c-4b8b-49d4-972a-92f475e1e2bf","sni":"www.bing.com","skip-cert-verify":true}
-  - {"name":"shentokoQ4|QMRX.love@xray.com","type":"hysteria2","server":"129.146.249.162","port":50000,"password":"bcf5302c-4b8b-49d4-972a-92f475e1e2bf","sni":"www.bing.com","skip-cert-verify":true}
+  - {"name":"shentoko|QMRX.love@xray.com","type":"vless","server":"198.13.53.63","port":27586,"udp":true,"uuid":"56a3096c-e9a2-4e80-b893-a63c54cd3a29","tls":true,"servername":"www.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"Z3ZGnAOdKkzJ07gR_7_0k9_iTTFP6paDOrqx1rN2LU4"},"client-fingerprint":"chrome"}
+  - {"name":"ln|wCGo.love@xray.com","type":"vless","server":"45.76.74.41","port":52230,"udp":true,"uuid":"3d10ea2f-4b32-4d49-b724-075e92762dab","tls":true,"servername":"www.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"UtL7E0Gmxj3X5JdcPAutpTRKo7K2hugkR0vwk2XroUM"},"client-fingerprint":"chrome"}
+  - {"name":"lnl|9Vbr.love@xray.com","type":"vless","server":"96.45.188.130","port":37308,"udp":true,"uuid":"5ab3c025-124d-4746-e086-18a77f7aba31","tls":true,"servername":"addons.mozilla.org","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc"},"client-fingerprint":"chrome"}
   - {"name":"VLESS_BWG_USA01","type":"vless","server":"vps-bwg-usa.duyimin.com","port":48864,"udp":true,"uuid":"bb546ee4-6bde-4c19-db65-021522f56c13","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE","short-id":"fcaf45ab"},"client-fingerprint":"chrome"}
   - {"name":"VLESS_BWG_USA02","type":"vless","server":"vps-bwg-usa.duyimin.com","port":48864,"udp":true,"uuid":"bb546ee4-6bde-4c19-db65-021522f56c13","tls":true,"servername":"www.yahoo.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"omG1htUNwgt9mt0M1G127VHQUYHuRrsTWhUGu6DxxyE","short-id":"fcaf45ab"},"client-fingerprint":"chrome"}
   - {"name":"bwg-CN201","type":"vless","server":"us.exhentai.win","port":15965,"udp":true,"uuid":"7f9a1536-c1dd-483b-ff90-3449164ca35d","tls":true,"servername":"www.yupeclaser.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"},"client-fingerprint":"chrome"}
   - {"name":"bwg-CN202","type":"vless","server":"us.exhentai.win","port":15965,"udp":true,"uuid":"7f9a1536-c1dd-483b-ff90-3449164ca35d","tls":true,"servername":"www.yupeclaser.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"},"client-fingerprint":"chrome"}
   - {"name":"US,California01","type":"ss","server":"c76s2.portablesubmarines.com","port":12915,"password":"9hWuPUYWoc9pQYMA","cipher":"aes-256-gcm"}
-  - {"name":"US,California02","type":"vless","server":"176.119.149.132","port":443,"udp":true,"uuid":"c1cd1d96-9008-4623-d396-94a089d2891e","tls":true,"servername":"www.microsoft.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"},"client-fingerprint":"chrome"}
-  - {"name":"US,California03","type":"vless","server":"142.171.18.98","port":443,"udp":true,"uuid":"4c15391e-7605-45d4-b494-6ad5907dd1c4","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM"},"client-fingerprint":"chrome"}
-  - {"name":"US,California04","type":"vmess","server":"104.234.25.253","port":443,"cipher":"auto","uuid":"a66268e3-07a1-4792-9d3b-be801b86aecc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/jsjiziz/I_LOVE_CHINA/FUQIANGMINZHUWENMINGHEXIE/ZIYOUPINGDENGGONGZHENGFAZHI/AIGUOJINGYECHENGXINYOUSHAN/"}}
-  - {"name":"US,California05","type":"vless","server":"46.3.102.56","port":443,"udp":true,"uuid":"46763778-28a2-425c-d0b9-d1222919dcd3","tls":true,"servername":"www.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"},"client-fingerprint":"chrome"}
-  - {"name":"US,California06","type":"vless","server":"45.139.193.54","port":443,"udp":true,"uuid":"caad82f4-1c71-4ab6-fcef-1e81205bfafc","tls":true,"servername":"icloud.cdn-apple.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc"},"client-fingerprint":"chrome"}
-  - {"name":"US,California07","type":"vmess","server":"170.39.226.196","port":22022,"cipher":"auto","uuid":"b0f9e496-fe07-4bae-a725-90f0e2b6b9e2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"ewrxgp.neatnew.top","network":"grpc","grpc-opts":{"grpc-service-name":"ewrxgp.neatnew.top","grpc-mode":"none"}}
-  - {"name":"US,California08","type":"vmess","server":"170.39.226.154","port":3389,"cipher":"auto","uuid":"b0f9e496-fe07-4bae-a725-90f0e2b6b9e2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/sometimesnaive"}}
+  - {"name":"US,California02","type":"vless","server":"142.171.18.98","port":443,"udp":true,"uuid":"4c15391e-7605-45d4-b494-6ad5907dd1c4","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"IiuIighvDsor2v-vb5s3IJbNiqwLw568auiqoXxc7FM"},"client-fingerprint":"chrome"}
+  - {"name":"US,California03","type":"vless","server":"46.3.102.56","port":443,"udp":true,"uuid":"46763778-28a2-425c-d0b9-d1222919dcd3","tls":true,"servername":"www.icloud.com","flow":"xtls-rprx-vision","network":"tcp","reality-opts":{"public-key":"W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"},"client-fingerprint":"chrome"}
+  - {"name":"圣何塞ARM1-XUI-WARP分流_负载均衡","type":"vmess","server":"shsarm.2233445.xyz","port":2053,"cipher":"auto","uuid":"221eacf6-492c-480b-b0a6-495f7e77c19c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/lmao123vws","headers":{"host":"shsarm.2233445.xyz"}}}
+  - {"name":"圣何塞amd1-极光面板中转","type":"vmess","server":"jgmb.xwt1.eu.org","port":8222,"cipher":"auto","uuid":"221eacf6-492c-480b-b0a6-495f7e77c19c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/lmao123vws","headers":{"host":"shsamd1.2233445.xyz"}}}
+  - {"name":"圣何塞amd2-BLL","type":"vmess","server":"shsamd2.2233445.xyz","port":443,"cipher":"auto","uuid":"5ea9b69d-c9f0-4ee6-dd59-cecdf2b70e41","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5ea9b69d-c9f0-4ee6-dd59-cecdf2b70e41"}}
+  - {"name":"My春川amd2-负载均衡_BLL极光面板转发","type":"vmess","server":"jgmb.xwt1.eu.org","port":8113,"cipher":"auto","uuid":"221eacf6-492c-480b-b0a6-495f7e77c19c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/lmao123vws","headers":{"host":"myccamd2.xwt1.eu.org"}}}
+  - {"name":"加拿大多伦多-苹果","type":"vmess","server":"139.724064.xyz","port":443,"cipher":"auto","uuid":"ebbc3df3-febd-43dc-abae-e90ace438d96","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/qywqvws","headers":{"host":"139.724064.xyz"}}}
+  - {"name":"圣何塞amd1-负载均衡","type":"vmess","server":"shsamd1.2233445.xyz","port":2053,"cipher":"auto","uuid":"221eacf6-492c-480b-b0a6-495f7e77c19c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/lmao123vws","headers":{"host":"shsamd1.2233445.xyz"}}}
+  - {"name":"圣何塞ARM1-vmess负载均衡节点","type":"vmess","server":"shsarm.2233445.xyz","port":2053,"cipher":"auto","uuid":"221eacf6-492c-480b-b0a6-495f7e77c19c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"shsarm.2233445.xyz","network":"ws","ws-opts":{"path":"/lmao123vws","headers":{"host":"shsarm.2233445.xyz"}}}
+  - {"name":"圣何塞amd2-BLL（安全）","type":"vmess","server":"shsamd2.2233445.xyz","port":443,"cipher":"auto","uuid":"5ea9b69d-c9f0-4ee6-dd59-cecdf2b70e41","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5ea9b69d-c9f0-4ee6-dd59-cecdf2b70e41"}}
+  - {"name":"圣何塞ARM2-负载均衡","type":"vmess","server":"shsarm2.2233445.xyz","port":2053,"cipher":"auto","uuid":"221eacf6-492c-480b-b0a6-495f7e77c19c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/lmao123vws","headers":{"host":"shsarm2.2233445.xyz"}}}
+  - {"name":"首尔amd2-BLL_安全","type":"vmess","server":"seamd2.2233445.xyz","port":443,"cipher":"auto","uuid":"ce1e492e-bd4c-4c5c-d7be-49ee58aaaec9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ce1e492e-bd4c-4c5c-d7be-49ee58aaaec9"}}
+  - {"name":"首尔ARM1-vmess负载均衡","type":"vmess","server":"searm1.2233445.xyz","port":2053,"cipher":"auto","uuid":"221eacf6-492c-480b-b0a6-495f7e77c19c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/lmao123vws","headers":{"host":"searm1.2233445.xyz"}}}
+  - {"name":"RackNerd-vm负载均衡","type":"vmess","server":"rn.2233445.xyz","port":2053,"cipher":"auto","uuid":"221eacf6-492c-480b-b0a6-495f7e77c19c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"rn.2233445.xyz","network":"ws","ws-opts":{"path":"lmao123vws","headers":{"host":"rn.2233445.xyz"}}}
+  - {"name":"rackdc02-xui-vm-负载均衡","type":"vmess","server":"mem.xwt1.eu.org","port":2053,"cipher":"auto","uuid":"221eacf6-492c-480b-b0a6-495f7e77c19c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/lmao123vws","headers":{"host":"mem.xwt1.eu.org"}}}
+  - {"name":"Zgo-vm负载均衡","type":"vmess","server":"zgo.2233445.xyz","port":2053,"cipher":"auto","uuid":"221eacf6-492c-480b-b0a6-495f7e77c19c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/lmao123vws","headers":{"host":"zgo.2233445.xyz"}}}
+  - {"name":"vds-负载均衡","type":"vmess","server":"vds.2233445.xyz","port":2053,"cipher":"auto","uuid":"221eacf6-492c-480b-b0a6-495f7e77c19c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/lmao123vws","headers":{"host":"vds.2233445.xyz"}}}
+  - {"name":"US,California04","type":"ss","server":"c76s2.portablesubmarines.com","port":12915,"password":"9hWuPUYWoc9pQYMA","cipher":"aes-256-gcm"}
+  - {"name":"US,California05","type":"ss","server":"c76s2.portablesubmarines.com","port":12915,"password":"9hWuPUYWoc9pQYMA","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - lnl|9Vbr.love@xray.com
-      - ln|wCGo.love@xray.com
-      - syb|hEN5.love@xray.com
       - siwuxie|Ni2W.love@xray.com
+      - syb|hEN5.love@xray.co
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
-      - shentokoQ1|QMRX.love@xray.com
-      - shentokoQ2|QMRX.love@xray.com
-      - shentokoQ3|QMRX.love@xray.com
-      - shentokoQ4|QMRX.love@xray.com
+      - shentoko|QMRX.love@xray.com
+      - ln|wCGo.love@xray.com
+      - lnl|9Vbr.love@xray.com
       - VLESS_BWG_USA01
       - VLESS_BWG_USA02
       - bwg-CN201
@@ -123,27 +129,36 @@ proxy-groups:
       - US,California01
       - US,California02
       - US,California03
+      - 圣何塞ARM1-XUI-WARP分流_负载均衡
+      - 圣何塞amd1-极光面板中转
+      - 圣何塞amd2-BLL
+      - My春川amd2-负载均衡_BLL极光面板转发
+      - 加拿大多伦多-苹果
+      - 圣何塞amd1-负载均衡
+      - 圣何塞ARM1-vmess负载均衡节点
+      - 圣何塞amd2-BLL（安全）
+      - 圣何塞ARM2-负载均衡
+      - 首尔amd2-BLL_安全
+      - 首尔ARM1-vmess负载均衡
+      - RackNerd-vm负载均衡
+      - rackdc02-xui-vm-负载均衡
+      - Zgo-vm负载均衡
+      - vds-负载均衡
       - US,California04
       - US,California05
-      - US,California06
-      - US,California07
-      - US,California08
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - lnl|9Vbr.love@xray.com
-      - ln|wCGo.love@xray.com
-      - syb|hEN5.love@xray.com
       - siwuxie|Ni2W.love@xray.com
+      - syb|hEN5.love@xray.co
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
-      - shentokoQ1|QMRX.love@xray.com
-      - shentokoQ2|QMRX.love@xray.com
-      - shentokoQ3|QMRX.love@xray.com
-      - shentokoQ4|QMRX.love@xray.com
+      - shentoko|QMRX.love@xray.com
+      - ln|wCGo.love@xray.com
+      - lnl|9Vbr.love@xray.com
       - VLESS_BWG_USA01
       - VLESS_BWG_USA02
       - bwg-CN201
@@ -151,27 +166,36 @@ proxy-groups:
       - US,California01
       - US,California02
       - US,California03
+      - 圣何塞ARM1-XUI-WARP分流_负载均衡
+      - 圣何塞amd1-极光面板中转
+      - 圣何塞amd2-BLL
+      - My春川amd2-负载均衡_BLL极光面板转发
+      - 加拿大多伦多-苹果
+      - 圣何塞amd1-负载均衡
+      - 圣何塞ARM1-vmess负载均衡节点
+      - 圣何塞amd2-BLL（安全）
+      - 圣何塞ARM2-负载均衡
+      - 首尔amd2-BLL_安全
+      - 首尔ARM1-vmess负载均衡
+      - RackNerd-vm负载均衡
+      - rackdc02-xui-vm-负载均衡
+      - Zgo-vm负载均衡
+      - vds-负载均衡
       - US,California04
       - US,California05
-      - US,California06
-      - US,California07
-      - US,California08
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - lnl|9Vbr.love@xray.com
-      - ln|wCGo.love@xray.com
-      - syb|hEN5.love@xray.com
       - siwuxie|Ni2W.love@xray.com
+      - syb|hEN5.love@xray.co
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
-      - shentokoQ1|QMRX.love@xray.com
-      - shentokoQ2|QMRX.love@xray.com
-      - shentokoQ3|QMRX.love@xray.com
-      - shentokoQ4|QMRX.love@xray.com
+      - shentoko|QMRX.love@xray.com
+      - ln|wCGo.love@xray.com
+      - lnl|9Vbr.love@xray.com
       - VLESS_BWG_USA01
       - VLESS_BWG_USA02
       - bwg-CN201
@@ -179,26 +203,35 @@ proxy-groups:
       - US,California01
       - US,California02
       - US,California03
+      - 圣何塞ARM1-XUI-WARP分流_负载均衡
+      - 圣何塞amd1-极光面板中转
+      - 圣何塞amd2-BLL
+      - My春川amd2-负载均衡_BLL极光面板转发
+      - 加拿大多伦多-苹果
+      - 圣何塞amd1-负载均衡
+      - 圣何塞ARM1-vmess负载均衡节点
+      - 圣何塞amd2-BLL（安全）
+      - 圣何塞ARM2-负载均衡
+      - 首尔amd2-BLL_安全
+      - 首尔ARM1-vmess负载均衡
+      - RackNerd-vm负载均衡
+      - rackdc02-xui-vm-负载均衡
+      - Zgo-vm负载均衡
+      - vds-负载均衡
       - US,California04
       - US,California05
-      - US,California06
-      - US,California07
-      - US,California08
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - lnl|9Vbr.love@xray.com
-      - ln|wCGo.love@xray.com
-      - syb|hEN5.love@xray.com
       - siwuxie|Ni2W.love@xray.com
+      - syb|hEN5.love@xray.co
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
-      - shentokoQ1|QMRX.love@xray.com
-      - shentokoQ2|QMRX.love@xray.com
-      - shentokoQ3|QMRX.love@xray.com
-      - shentokoQ4|QMRX.love@xray.com
+      - shentoko|QMRX.love@xray.com
+      - ln|wCGo.love@xray.com
+      - lnl|9Vbr.love@xray.com
       - VLESS_BWG_USA01
       - VLESS_BWG_USA02
       - bwg-CN201
@@ -206,26 +239,35 @@ proxy-groups:
       - US,California01
       - US,California02
       - US,California03
+      - 圣何塞ARM1-XUI-WARP分流_负载均衡
+      - 圣何塞amd1-极光面板中转
+      - 圣何塞amd2-BLL
+      - My春川amd2-负载均衡_BLL极光面板转发
+      - 加拿大多伦多-苹果
+      - 圣何塞amd1-负载均衡
+      - 圣何塞ARM1-vmess负载均衡节点
+      - 圣何塞amd2-BLL（安全）
+      - 圣何塞ARM2-负载均衡
+      - 首尔amd2-BLL_安全
+      - 首尔ARM1-vmess负载均衡
+      - RackNerd-vm负载均衡
+      - rackdc02-xui-vm-负载均衡
+      - Zgo-vm负载均衡
+      - vds-负载均衡
       - US,California04
       - US,California05
-      - US,California06
-      - US,California07
-      - US,California08
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - lnl|9Vbr.love@xray.com
-      - ln|wCGo.love@xray.com
-      - syb|hEN5.love@xray.com
       - siwuxie|Ni2W.love@xray.com
+      - syb|hEN5.love@xray.co
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
-      - shentokoQ1|QMRX.love@xray.com
-      - shentokoQ2|QMRX.love@xray.com
-      - shentokoQ3|QMRX.love@xray.com
-      - shentokoQ4|QMRX.love@xray.com
+      - shentoko|QMRX.love@xray.com
+      - ln|wCGo.love@xray.com
+      - lnl|9Vbr.love@xray.com
       - VLESS_BWG_USA01
       - VLESS_BWG_USA02
       - bwg-CN201
@@ -233,26 +275,35 @@ proxy-groups:
       - US,California01
       - US,California02
       - US,California03
+      - 圣何塞ARM1-XUI-WARP分流_负载均衡
+      - 圣何塞amd1-极光面板中转
+      - 圣何塞amd2-BLL
+      - My春川amd2-负载均衡_BLL极光面板转发
+      - 加拿大多伦多-苹果
+      - 圣何塞amd1-负载均衡
+      - 圣何塞ARM1-vmess负载均衡节点
+      - 圣何塞amd2-BLL（安全）
+      - 圣何塞ARM2-负载均衡
+      - 首尔amd2-BLL_安全
+      - 首尔ARM1-vmess负载均衡
+      - RackNerd-vm负载均衡
+      - rackdc02-xui-vm-负载均衡
+      - Zgo-vm负载均衡
+      - vds-负载均衡
       - US,California04
       - US,California05
-      - US,California06
-      - US,California07
-      - US,California08
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - lnl|9Vbr.love@xray.com
-      - ln|wCGo.love@xray.com
-      - syb|hEN5.love@xray.com
       - siwuxie|Ni2W.love@xray.com
+      - syb|hEN5.love@xray.co
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
-      - shentokoQ1|QMRX.love@xray.com
-      - shentokoQ2|QMRX.love@xray.com
-      - shentokoQ3|QMRX.love@xray.com
-      - shentokoQ4|QMRX.love@xray.com
+      - shentoko|QMRX.love@xray.com
+      - ln|wCGo.love@xray.com
+      - lnl|9Vbr.love@xray.com
       - VLESS_BWG_USA01
       - VLESS_BWG_USA02
       - bwg-CN201
@@ -260,11 +311,23 @@ proxy-groups:
       - US,California01
       - US,California02
       - US,California03
+      - 圣何塞ARM1-XUI-WARP分流_负载均衡
+      - 圣何塞amd1-极光面板中转
+      - 圣何塞amd2-BLL
+      - My春川amd2-负载均衡_BLL极光面板转发
+      - 加拿大多伦多-苹果
+      - 圣何塞amd1-负载均衡
+      - 圣何塞ARM1-vmess负载均衡节点
+      - 圣何塞amd2-BLL（安全）
+      - 圣何塞ARM2-负载均衡
+      - 首尔amd2-BLL_安全
+      - 首尔ARM1-vmess负载均衡
+      - RackNerd-vm负载均衡
+      - rackdc02-xui-vm-负载均衡
+      - Zgo-vm负载均衡
+      - vds-负载均衡
       - US,California04
       - US,California05
-      - US,California06
-      - US,California07
-      - US,California08
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -287,16 +350,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - lnl|9Vbr.love@xray.com
-      - ln|wCGo.love@xray.com
-      - syb|hEN5.love@xray.com
       - siwuxie|Ni2W.love@xray.com
+      - syb|hEN5.love@xray.co
       - BWG|xW16.love@xray.com
       - sybvultr|VIen.love@xray.com
-      - shentokoQ1|QMRX.love@xray.com
-      - shentokoQ2|QMRX.love@xray.com
-      - shentokoQ3|QMRX.love@xray.com
-      - shentokoQ4|QMRX.love@xray.com
+      - shentoko|QMRX.love@xray.com
+      - ln|wCGo.love@xray.com
+      - lnl|9Vbr.love@xray.com
       - VLESS_BWG_USA01
       - VLESS_BWG_USA02
       - bwg-CN201
@@ -304,11 +364,23 @@ proxy-groups:
       - US,California01
       - US,California02
       - US,California03
+      - 圣何塞ARM1-XUI-WARP分流_负载均衡
+      - 圣何塞amd1-极光面板中转
+      - 圣何塞amd2-BLL
+      - My春川amd2-负载均衡_BLL极光面板转发
+      - 加拿大多伦多-苹果
+      - 圣何塞amd1-负载均衡
+      - 圣何塞ARM1-vmess负载均衡节点
+      - 圣何塞amd2-BLL（安全）
+      - 圣何塞ARM2-负载均衡
+      - 首尔amd2-BLL_安全
+      - 首尔ARM1-vmess负载均衡
+      - RackNerd-vm负载均衡
+      - rackdc02-xui-vm-负载均衡
+      - Zgo-vm负载均衡
+      - vds-负载均衡
       - US,California04
       - US,California05
-      - US,California06
-      - US,California07
-      - US,California08
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
